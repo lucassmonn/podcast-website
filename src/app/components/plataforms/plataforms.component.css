@@ -1,0 +1,21 @@
+.plataform {
+    width: 65px;
+    height: 65px;
+    background-color: #ffbe00;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.plataform:hover {
+    -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    width: 67px;
+    height: 67px;
+    transition: .4s;
+}
+
+.plataform img {
+    width: 40px;
+    cursor: pointer;
+}

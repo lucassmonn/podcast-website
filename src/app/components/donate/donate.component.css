@@ -1,0 +1,15 @@
+.apoia {
+    width: 300px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.bg {
+    height: 400px;
+    background-image: url('/assets/images/rindo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

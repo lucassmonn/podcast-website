@@ -1,0 +1,36 @@
+.menu-container {
+    background-color: white;
+    z-index: 999;
+}
+
+.menu {
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    z-index: 999;
+
+    align-items: center;
+}
+
+.menu ul li {
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #ffbe00;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid #ffbe00;
+    margin-top: 2px;
+}

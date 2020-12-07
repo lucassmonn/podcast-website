@@ -1,0 +1,50 @@
+.plataform {
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.plataform:hover {
+    -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    width: 67px;
+    height: 67px;
+    transition: .4s;
+}
+
+.plataform img {
+    width: 40px;
+    cursor: pointer;
+}
+
+
+
+.episode {
+    font-size: 1.5em;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover p{
+    transition: .3s;
+    color: #ffbe00;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.outros {
+    background-color:  #ffbe00;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 15px 40px;
+}
